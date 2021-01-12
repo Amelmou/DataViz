@@ -1,3 +1,19 @@
-<iframe style="width: 80vw; height: 50vh; border: none;"
-  src="https://query.wikidata.org/embed.html#SELECT%20%3Fchanteur%20%3FchanteurLabel%20%3Fimage%20%3Fpays%20%3FpaysLabel%20%3Fgenre%20%3FgenreLabel%20%3Fpays_de_citoyennet_%20%3Fpays_de_citoyennet_Label%20WHERE%20%7B%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%20%20%3Fchanteur%20wdt%3AP106%20wd%3AQ177220.%0A%20%20OPTIONAL%20%7B%20%3Fchanteur%20wdt%3AP18%20%3Fimage.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fchanteur%20wdt%3AP136%20%3Fgenre.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fchanteur%20wdt%3AP27%20%3Fpays_de_citoyennet_.%20%7D%0A%7D%0ALIMIT%20100"
-  referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>DataViz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+</head>
+
+<body>
+  <h1 style="text-align: center;">Chanteurs francais</h1>
+
+  <iframe style="height: 100%;width: 100%;"
+    src="https://query.wikidata.org/embed.html#SELECT%20%3Fchanteur%20%3FchanteurLabel%20%3Fimage%20%3Fpays%20%3FpaysLabel%20%3Fgenre%20%3FgenreLabel%20%3Fpays_de_citoyennet_%20%3Fpays_de_citoyennet_Label%20WHERE%20%7B%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%20%20%3Fchanteur%20wdt%3AP106%20wd%3AQ177220.%0A%20%20OPTIONAL%20%7B%20%3Fchanteur%20wdt%3AP18%20%3Fimage.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fchanteur%20wdt%3AP136%20%3Fgenre.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fchanteur%20wdt%3AP27%20%3Fpays_de_citoyennet_.%20%7D%0A%7D%0ALIMIT%20100"
+    referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+</body>
+
+</html>
